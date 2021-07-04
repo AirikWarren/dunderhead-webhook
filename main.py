@@ -71,4 +71,4 @@ if __name__ == '__main__':
     greeting_message = f"{random.choice(greetings)} {random.choice(group_title)} {random.choice(pre_transition_phrases)}\n\n\n{random.choice(transition_phrases)}"
 
     send_message_to_discord_and_slack(
-        f"\n\n{greeting_message} {info_message}\n\n The most up to date invite link is {INVITE_URL}")
+        f"\n\n{greeting_message} {info_message}\n\n The most up to date invite link is {INVITE_URL}\n\n You can take a look at this bot's source code and submit a pull request at https://github.com/AirikWarren/dunderhead-webhook")
